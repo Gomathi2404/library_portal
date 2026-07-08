@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 const API = "http://localhost/LIBRARY_PORTAL/library";
 
 const DEPT_OPTIONS = [
-  "CSE", "ECE", "MECH", "AI&DS", "IT", "Civil", "EEE", "S&H", "MBA", "MCA"
+  "CSE", "ECE", "MECH", "AI&DS", "IT", "Civil", "EEE", "S&H", "MBA", "MCA" ,"ICE"
 ];
 
 const COLORS = {

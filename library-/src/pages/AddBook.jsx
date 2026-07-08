@@ -1,6 +1,6 @@
 import { useState } from "react";
 const API = "http://localhost/LIBRARY_PORTAL/library";
-const deptOptions = ["CSE","ECE","MECH","AI&DS","IT","MBA","MCA","Civil","EEE"];
+const deptOptions = ["CSE","ECE","MECH","AI&DS","IT","MBA","MCA","Civil","EEE","ICE"];
 
 export default function AddBook({ dept, onSuccess }) {
   const isAdmin = dept === "admin" || !dept;

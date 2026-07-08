@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const API = "http://localhost/LIBRARY_PORTAL/library";
-const DEPT_OPTIONS = ["CSE","ECE","MECH","AI&DS","IT","Civil","EEE","S&H","MBA","MCA"];
+const DEPT_OPTIONS = ["CSE","ECE","MECH","AI&DS","IT","Civil","EEE","S&H","MBA","MCA","ICE"];
 const YEAR_OPTIONS = ["I Year","II Year","III Year","IV Year","Faculty"];
 const SECTION_OPTIONS = ["A","B"];
 

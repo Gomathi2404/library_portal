@@ -36,7 +36,8 @@ export default function Transactions({ dept }) {
       MBA: "Department of Master of Business Administration (MBA)",
       MCA : "Department of Master of Computer Applications (MCA)",
       "AI&DS": "Department of Artificial Intelligence and Data Science (AI&DS)",
-      "S&H": "Department of Science and Humanities (S&H)"
+      "S&H": "Department of Science and Humanities (S&H)",
+      "ICE": "Department of Instrumentation and Control Engineering (ICE)"
     };
     printWindow.document.write(`
       <!DOCTYPE html>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 const API = "http://localhost/LIBRARY_PORTAL/library";
 const YEAR_OPTIONS_CLASS = ["I Year","II Year","III Year","IV Year"];
-const DEPT_OPTIONS_CLASS = ["CSE","ECE","MECH","AI&DS","IT","Civil","EEE","S&H","MBA","MCA"];
+const DEPT_OPTIONS_CLASS = ["CSE","ECE","MECH","AI&DS","IT","Civil","EEE","S&H","MBA","MCA","ICE"];
 
 export default function DeleteStudent({ dept, onBack, onDeleted }) {
   const isAdmin = dept === "admin" || !dept;

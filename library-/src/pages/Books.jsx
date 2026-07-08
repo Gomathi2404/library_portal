@@ -3,7 +3,7 @@ import BookHistory from "./BookHistory";
 import { parseCSV, downloadCSVTemplate } from "../utils/csvParser";
 const API = "http://localhost/LIBRARY_PORTAL/library";
 
-const DEPT_OPTIONS = ["CSE","ECE","MECH","AI&DS","IT","Civil","EEE","S&H","MBA","MCA"];
+const DEPT_OPTIONS = ["CSE","ECE","MECH","AI&DS","IT","Civil","EEE","S&H","MBA","MCA","ICE"];
 
 export default function Books({ dept }) {
   const isAdmin = dept === "admin" || !dept;
@@ -78,7 +78,8 @@ export default function Books({ dept }) {
       MBA: "Department of Master of Business Administration (MBA)",
       MCA : "Department of Master of Computer Applications (MCA)",
       "AI&DS": "Department of Artificial Intelligence and Data Science (AI&DS)",
-      "S&H": "Department of Science and Humanities (S&H)"
+      "S&H": "Department of Science and Humanities (S&H)",
+      ICE: "Department of Instrumentation and Control Engineering (ICE)"
     };
     win.document.write(`
       <!DOCTYPE html><html><head>
